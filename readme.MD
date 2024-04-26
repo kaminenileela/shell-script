@@ -13,12 +13,12 @@ git add <file-name>
 git commit -m "commit message"
 ```
 * push the changes to Github/Central repo
-...
+```
 git push -u origin main
-...
+```
 
 **naming convention: use small case with Hyphens (-). No spaces**
 
-...
+```
 git add . ; git commit -m "some -message"; git push -u origin main
-...
+```
