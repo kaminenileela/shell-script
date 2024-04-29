@@ -1,4 +1,5 @@
-SERID=$(id -u)
+#!/bin/bash
+USERID=$(id -u)
 
 VALIDATE(){
 
