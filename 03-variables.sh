@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PERSON1=Raju
+PERSON1=Raju #no space between = and value
 PERSON2=Lilly
 
 echo "$PERSON1:: Hello $PERSON2, How are you?"

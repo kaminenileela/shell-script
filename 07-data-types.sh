@@ -14,3 +14,6 @@ read b
 
 c=$(($a-$b))
 echo "Subtraction of $a and $b is $c" 
+
+#declaring a variable as integer
+#declare -i x=10
