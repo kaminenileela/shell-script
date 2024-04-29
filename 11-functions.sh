@@ -9,6 +9,8 @@ then
     exit 1
 else
     echo "$2...SUCCESS"
+fi
+
 }
 
 if [ $USERID -ne 0 ]
