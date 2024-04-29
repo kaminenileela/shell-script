@@ -12,5 +12,5 @@ read a
 echo "Enter no2:"
 read b
 
-c=`expr $($a-$b)`
+c=$(($a-$b))
 echo "Subtraction of $a and $b is $c" 
