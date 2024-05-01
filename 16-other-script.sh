@@ -3,4 +3,4 @@
 COURSE="Devops from other script"
 
 echo "variable value from other script: $COURSE"
-echo "process id of current script : $$"
+echo "process id of other script : $$"
