@@ -19,7 +19,7 @@ fi
 if [ $USERID -ne 0 ]
 then
     echo "Please run script with super user access"
-    exit 0
+    exit 1
 else
     echo "You are super user"
 fi
