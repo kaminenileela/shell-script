@@ -19,7 +19,7 @@ fi
 if [ $USERID -ne 0 ]
 then
     echo "Please run script with super user access"
-    exit 2
+    exit 0
 else
     echo "You are super user"
 fi
@@ -38,5 +38,4 @@ VALIDATE $? "Installing MYSQL"
 #*fi
 
 dnf install git -y &>>$LOGFILE
-
 VALIDATE $? "Installing Git"
