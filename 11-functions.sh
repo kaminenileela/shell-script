@@ -25,7 +25,6 @@ else
 fi
 
 dnf install mysql -y &>>$LOGFILE
-
 VALIDATE $? "Installing MYSQL"
 
 #if [ $? -ne 0 ]
