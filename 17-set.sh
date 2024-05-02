@@ -10,8 +10,8 @@ else
     echo "You are super user"
 fi
 
-dnf install mysqllll -y
-dnf install git -y
+apt install mysqllll -y
+apt install git -y
 
     echo "Is script proceeding?"
  
