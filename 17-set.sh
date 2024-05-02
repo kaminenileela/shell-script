@@ -17,8 +17,8 @@ else
     echo "You are super user"
 fi
 
-yum install mysqllll -y
-yum install git -y
+dnf install mysqllll -y
+dnf install git -y
 
     echo "Is script proceeding?"
  
