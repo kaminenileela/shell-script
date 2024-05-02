@@ -2,7 +2,6 @@
 set -e
 
 failure(){
-
     echo "Failed at $1: $2"
 }
 
@@ -18,8 +17,8 @@ else
     echo "You are super user"
 fi
 
-apt install mysqllll -y
-apt install git -y
+yum install mysqllll -y
+yum install git -y
 
     echo "Is script proceeding?"
  
