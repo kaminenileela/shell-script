@@ -9,7 +9,7 @@ do
     USAGE=$(df -hT | grep xfs | awk -F " " '{print $6F}' | cut -d "%" -f1)
     FOLDER=$(df -hT | grep xfs | awk -F " " '{print $NF}')
 
-    MESSAGE+="$FOLDER usage is $USAGE, exceeds usage limit $THRESHOLD\n"
+    MESSAGE+= "$FOLDER usage is $USAGE, exceeds usage limit $THRESHOLD\n"
 
 done <<< $DISK_USAGE
 
