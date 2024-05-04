@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Enter log directory path" SOURCE_DIRECTORY
+SOURCE_DIRECTORY=/tmp/app-logs
 
 if [ -d $SOURCE_DIRECTORY ]
 then
