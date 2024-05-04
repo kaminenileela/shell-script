@@ -10,7 +10,7 @@ do
     USAGE=$(echo $line | awk -F " " '{print $6F}' | cut -d "%" -f1)
     FOLDER=$(echo $line | awk -F " " '{print $NF}')
 
-    if [ $USAGE -ge $THRESHOLD]
+    if [ $USAGE -ge $THRESHOLD ]
     then 
        echo "$FOLDER usage is $USAGE, exceeds usage limit $THRESHOLD\n"
     fi
