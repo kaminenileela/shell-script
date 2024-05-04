@@ -6,11 +6,14 @@ MESSAGE=""
 
 while IFS= read -r line
 do
-    echo "$line"
-    #USAGE=$(df -hT | grep xfs | awk -F " " '{print $6F}' | cut -d "%" -f1)
-   # FOLDER=$(df -hT | grep xfs | awk -F " " '{print $NF}')
+   
+    USAGE=$(echo $line | awk -F " " '{print $6F}' | cut -d "%" -f1)
+    FOLDER=$(echo $line | awk -F " " '{print $NF}')
 
-    #MESSAGE+= "$FOLDER usage is $USAGE, exceeds usage limit $THRESHOLD\n"
+    if [ $USAGE -ge $THRESHOLD]
+       
+       MESSAGE+= "$FOLDER usage is $USAGE, exceeds usage limit $THRESHOLD\n"
+    fi
 
 done <<< $DISK_USAGE
 
