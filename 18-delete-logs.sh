@@ -10,6 +10,6 @@ else
     echo "Please make sure $SOURCE_DIRECTORY  exist"
 fi
 
-FILES=$(find SOURCE_DIRECTORY -name "*.log" -mtime +14)
+FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +14)
 
 echo "old logs dated 14 days back: $FILES"
