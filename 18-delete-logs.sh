@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_DIRECTORY=/Users/leelakamineni/devops/tmp/app_logs
+SOURCE_DIRECTORY=/Users/leelakamineni/devops/tmp/app-logs
 
 if [ -d $SOURCE_DIRECTORY ]
 then
