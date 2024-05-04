@@ -11,7 +11,6 @@ do
 
     MESSAGE+="$FOLDER usage is $USAGE, exceeds usage limit $THRESHOLD"
 
-done
-while <<< $DISK_USAGE
+done <<< $DISK_USAGE
 
-echo "message: $MESSAGE"
+   echo "message: $MESSAGE"
