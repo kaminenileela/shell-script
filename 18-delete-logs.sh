@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_DIRECTORY=/Users/leelakamineni/devops/tmp/app-logs
+read -p "Enter log directory path" SOURCE_DIRECTORY
 
 if [ -d $SOURCE_DIRECTORY ]
 then
