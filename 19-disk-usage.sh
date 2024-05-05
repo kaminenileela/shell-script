@@ -12,9 +12,9 @@ do
 
     if [ $USAGE -ge $THRESHOLD ]
     then 
-       echo "$FOLDER usage is $USAGE, exceeds usage limit $THRESHOLD\n"
+       MESSAGE+="$FOLDER usage is $USAGE, exceeds usage limit $THRESHOLD\n"
     fi
 
 done <<< $DISK_USAGE
 
- #  echo -e "message: $MESSAGE"
+   echo -e "message: $MESSAGE"
