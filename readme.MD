@@ -22,3 +22,9 @@ git push -u origin main
 ```
 git add . ; git commit -m "some -message"; git push -u origin main
 ```
+
+Commands:
+-----------
+free ---> to check free space
+df -hT
+env
