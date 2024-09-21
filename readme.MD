@@ -28,3 +28,9 @@ Commands:
 free ---> to check free space
 df -hT
 env
+uname -a --> we get all information about kernel
+ifconfig
+curl http://localhost:8080/transaction
+
+
+
